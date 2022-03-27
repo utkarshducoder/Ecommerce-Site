@@ -1,8 +1,10 @@
-
+*{
+  --white-color: #fff;
+}
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: var(--white-color);
 }
 
 .bottom-left {
@@ -82,7 +84,6 @@ margin-right: 20px;
 nav .main-list li{
 display: inline-block;
 line-height: 30px;
-/* margin: 50px 0; */
 top: 2px;
 }
 nav .main-list li a{
